@@ -1,3 +1,8 @@
 import findpositive
 
-print(findpositive.find_max_digit(579))
+while(True):
+    try:
+        number = int(input("Input number: "))
+        print(findpositive.find_max_digit(number))
+    except Exception:
+        print("Error. Try again!")
